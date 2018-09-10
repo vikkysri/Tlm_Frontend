@@ -2,10 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<div>
-  <p>{{testTitle}}</p>
-</div>`
+  templateUrl: `./contactus-form/contactus-form.component.html`,
 })
 export class AppComponent {
- testTitle: string = 'Test content';
+
 }
