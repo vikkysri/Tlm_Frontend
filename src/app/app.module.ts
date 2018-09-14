@@ -2,12 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ContactusFormComponent } from './contactus-form/contactus-form.component';
+// import { ContactusFormComponent } from './contactus-form/contactus-form.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactusFormComponent
+    ContactusFormComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule

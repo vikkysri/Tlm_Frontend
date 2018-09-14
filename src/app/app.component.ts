@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: `./contactus-form/contactus-form.component.html`,
+  templateUrl: `./product-list/product-list.component.html`,
 })
 export class AppComponent {
 
