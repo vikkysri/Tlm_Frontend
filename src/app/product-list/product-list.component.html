@@ -1,28 +1,12 @@
-<!-- <div >
-  <table>
-       <tr>
-       <th>productId</th>
-         <th>productname</th>
-
-     </tr>
-
-
-      <tr *ngFor="let Product of products">
-      <td>{{ Product.ProductId }}</td>
-      <td>{{ Product.Product_name }}</td>
-    </tr>
-
-  </table>
-
-</div> -->
-
-<div class="card" style="width:400px">
-     <div class="col-4" *ngFor="let Product of products">
-       <img [src]='Product.Product_url'>
-        <p><span>{{ Product.ProductId }}</span></p>
-      <p><span>{{ Product.Product_name }}</span></p>
-      <p><span>{{ Product.Product_price }}</span></p>
+<div class="row card-group">
+    <div class="col-sm-3" *ngFor="let Product of products">
+        <div class="zoom"><img [src]='Product.Product_url' id="boxsize">
+          <p><span>{{ Product.Product_name }}</span></p>
+        <p><span>{{ Product.Product_price | currency:'INR'}}</span></p>
+      </div>
     </div>
-  </div>
+</div>
+
+
 
 

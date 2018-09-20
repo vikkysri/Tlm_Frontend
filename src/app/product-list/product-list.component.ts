@@ -8,22 +8,43 @@ import { Component, OnInit } from '@angular/core';
 export class ProductListComponent implements OnInit {
  products: any[] = [{
    'ProductId' : 1,
-   'Product_name': 'test1',
+   'Product_name': 'Girl',
    'Product_price' : '100',
-   'Product_url' : 'D:/Workspace two/Tlm_Frontend/src/assets/HomePageImages/multimedia-photo-icon-31 (1) (2) (2).png'
- },
+   'Product_url' : './assets/HomePageImages/img20180423_20575829.jpg'
+ }
+ ,
  {
   'ProductId' : 2,
-  'Product_name': 'test2',
+  'Product_name': 'Budha',
   'Product_price' : '200',
-  'Product_url' : 'D:/Workspace two/Tlm_Frontend/src/assets/HomePageImages/multimedia-photo-icon-31 (1) (2) (2).png'
+  'Product_url' : './assets/HomePageImages/img20180423_21132884.jpg'
 },
 {
   'ProductId' : 3,
-  'Product_name': 'test3',
+  'Product_name': 'Orange Budha',
   'Product_price' : '300',
-  'Product_url' : 'D:/Workspace two/Tlm_Frontend/src/assets/HomePageImages/multimedia-photo-icon-31 (1) (2) (2).png'
+  'Product_url' : './assets/HomePageImages/img20180423_21165214.jpg'
+},
+{
+  'ProductId' : 1,
+  'Product_name': 'Girl',
+  'Product_price' : '100',
+  'Product_url' : './assets/HomePageImages/img20180423_20575829.jpg'
 }
+,
+{
+ 'ProductId' : 2,
+ 'Product_name': 'Budha',
+ 'Product_price' : '200',
+ 'Product_url' : './assets/HomePageImages/img20180423_21132884.jpg'
+},
+{
+ 'ProductId' : 3,
+ 'Product_name': 'Orange Budha',
+ 'Product_price' : '300',
+ 'Product_url' : './assets/HomePageImages/img20180423_21165214.jpg'
+}
+
 ];
 
 ngOnInit() {
