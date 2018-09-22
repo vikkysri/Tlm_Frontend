@@ -1,0 +1,17 @@
+.colorlib-nav .top-menu {
+  padding: 40px 30px; }
+  @media screen and (max-width: 768px) {
+    .colorlib-nav .top-menu {
+      padding: 28px 1em; } }
+
+      #text-home-logo {
+        color: #FFC300 ;
+            text-align: left;
+            position: absolute;
+            margin: -5px auto;
+            margin-left: -4%;
+        }
+        #colorlib-logo {
+
+          width: 100px;
+      }
