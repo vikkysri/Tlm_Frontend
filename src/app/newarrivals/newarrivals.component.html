@@ -1,3 +1,19 @@
-<p>
-  newarrivals works!
-</p>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3 text-center colorlib-heading">
+        <h2><span>New Arrival</span></h2>
+        <p>We love to tell our successful far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.</p>
+    </div>
+</div>
+<div class= "row">
+<div class="col-md-3 text-center" *ngFor="let newarrival of newarrivals">
+    <div class="product-entry zoom product-img">
+        <img [src]='newarrival.Product_url' id="boxsize">
+        <p class="tag"><span class="new">New</span></p>
+        <p><span>{{ newarrival.Product_name }}</span></p>
+      <p><span>{{ newarrival.Product_price | currency:'INR'}}</span></p>
+    </div>
+  </div>
+</div>
+
+
